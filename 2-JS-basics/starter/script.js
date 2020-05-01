@@ -37,3 +37,12 @@ console.log(salary);
 // Type Coercion -- javascript will convert the types of variables to display the full console log automatically
 // type coercion will change this console into a string
 console.log(firstName +' '+ lastName +' is '+ age +' years old. And he is a '+ job +'. Is he married? '+ isMarried); 
+
+
+// console.log -- prints to console
+// prompt -- prompts the user for an action
+// alert -- alerts the user of an action
+
+alert(firstName +' '+ lastName +' is '+ age +' years old. And he is a '+ job +'. Is he married? '+ isMarried);
+
+prompt('what is his last name?');
