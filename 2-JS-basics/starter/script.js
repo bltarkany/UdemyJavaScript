@@ -45,4 +45,7 @@ console.log(firstName +' '+ lastName +' is '+ age +' years old. And he is a '+ j
 
 alert(firstName +' '+ lastName +' is '+ age +' years old. And he is a '+ job +'. Is he married? '+ isMarried);
 
-prompt('what is his last name?');
+// type mutation can happen when you call a variable and give it a new defining point
+// prompts can be used to store information gathered from the user
+lastName = prompt('What is his last name?');
+console.log(firstName +' '+ lastName);
