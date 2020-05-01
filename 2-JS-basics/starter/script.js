@@ -45,7 +45,40 @@ console.log(firstName +' '+ lastName +' is '+ age +' years old. And he is a '+ j
 
 alert(firstName +' '+ lastName +' is '+ age +' years old. And he is a '+ job +'. Is he married? '+ isMarried);
 
-// type mutation can happen when you call a variable and give it a new defining point
+// Type Mutation can happen when you call a variable and give it a new defining point
 // prompts can be used to store information gathered from the user
 lastName = prompt('What is his last name?');
 console.log(firstName +' '+ lastName);
+
+
+// Basic Operators
+
+// global variables
+var year = 2020;
+
+// subtraction -
+var yearBorn = year - age;
+console.log(yearBorn);
+
+// addition +
+var inTwoYears = age + 2;
+console.log('In two years John will be '+ inTwoYears +' years old.');
+
+// multiplication *
+// Note: double quotations are used to alleviate apostrophe conflict
+var doubleAge = age * 2;
+console.log("Double John's age is "+ doubleAge +'.');
+
+// Division /
+var halfAge = age / 2;
+console.log("Half of John's age is "+ halfAge +'.');
+
+// Comparison < >
+var markAge = 40;
+var older = age > markAge;
+console.log('Is John older than Mark? '+ older);
+
+// Typeof Operator -- defines the type of variable
+console.log(typeof firstName);
+console.log(typeof age);
+console.log(typeof older);
