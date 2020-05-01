@@ -82,3 +82,5 @@ console.log('Is John older than Mark? '+ older);
 console.log(typeof firstName);
 console.log(typeof age);
 console.log(typeof older);
+
+
